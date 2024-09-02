@@ -11,7 +11,7 @@
     <title>Gamer Card</title>
 </head>
 
-<body class="text-white" style="background-color: rgb(56, 56, 56)">
+<body class="text-white" style="background-color: rgb(34, 34, 34)">
     <section class="bg-secondary text-black w-100 seccion1"
         style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 40%, rgb(56, 56, 56)), url('https://iili.io/dNdctPp.png'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 700px; position: relative;">
         <div class="social-sidebar">
@@ -84,7 +84,7 @@
                     <!-- Contenido de la primera columna (70%) -->
                     <div class="d-flex align-items-center justify-content-center h-100 video-wrapper">
                         <div class="video-background">
-                            <iframe width="100%" height="100%"
+                            <iframe width="100%" height="100%" style="border-radius: 15px 0 0 15px;"
                                 src="https://www.youtube.com/embed/f0redWG9D0E?autoplay=1&mute=1&loop=1&playlist=f0redWG9D0E"
                                 frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         </div>
@@ -1138,11 +1138,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="card-footer bg-dark text-white text-center">
+                <div class="card-footer bg-dark text-white text-center ">
                     <a href="ps5.html" class="btn btn-outline-warning btn-lg text-white">Ver más juegos</a>
                 </div>
             </div>
-
         </section>
         <script>
             document.getElementById('accesorios-link').addEventListener('click', function () {
@@ -1166,8 +1165,62 @@
         </script>
         <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-<footer class="bg-dark text-white text-center p-3">
-    <p class="m-10">© 2021 - Todos los derechos reservados</p>
+<footer class="bg-dark text-white text-center p-4 mt-3 mb-3" style="border-radius: 15px;">
+    <div class="container">
+        <div class="row">
+            <!-- Columna de Contacto -->
+            <div class="col-md-6">
+                <div class="d-flex align-items-start">
+                    <!-- logo -->
+                    <img src="images/logo.png" alt="logo" class="img-fluid" style="width: 300px; margin-right: 15px;">
+                    <div>
+                        <h5 class="mb-3" style="color: #00FF00; text-shadow: 0 0 5px #00FF00;">Contacto</h5>
+                        <p class="mb-2" style="color: #00BFFF;">¡Síguenos y mantente conectado con las últimas novedades
+                            y ofertas!</p>
+                        <p class="mb-2" style="color: #00BFFF;">Dirección: Pedro Moncayo 6-15 & Bolivar, Ibarra -
+                            Ecuador</p>
+
+                        <!-- Redes sociales -->
+                        <div class="social-links mt-3">
+                            <a href="https://www.facebook.com/zonagamersecuador" target="_blank" title="Facebook"
+                                class="social-link me-2">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://x.com/zonagamersec?t=P_mNPwPKWfYibsbTnGWlrw&s=09" target="_blank" title="X"
+                                class="social-link me-2">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                            <a href="https://www.instagram.com/zonagamersecuador/" target="_blank" title="Instagram"
+                                class="social-link me-2">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.tiktok.com/@zona.gamers.ecuad" target="_blank" title="TikTok"
+                                class="social-link me-2">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                            <a href="https://www.threads.net/@zonagamersecuador" target="_blank" title="Threads"
+                                class="social-link">
+                                <i class="fa-brands fa-threads"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Columna de Información -->
+            <div class="col-md-6">
+                <h5 class="mb-3" style="color: #FF4500; text-shadow: 0 0 5px #FF4500;">Ubicación</h5>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.8820594113626!2d-77.90212638504341!3d0.3502260999341635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d3b99baf0c6f27%3A0x8353c15b97b44b6!2sPedro%20Moncayo%206-15%20%26%20Bolivar%2C%20Ibarra%2C%20Ecuador!5e0!3m2!1ses!2sus!4v1638210713587!5m2!1ses!2sus"
+                        allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+        <p class="mb-0 mt-3" style="color: #FF4500;">© 2024 - Todos los derechos reservados</p>
+    </div>
 </footer>
+
+
+
 
 </html>
