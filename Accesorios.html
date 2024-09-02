@@ -50,10 +50,10 @@
                      <div class="text"> </div>
                   </a>
                </div>
-               <div class="right text-center" title="PS4">
+              <div class="right text-center" title="PS4" id="ps4-link">
                   <div class="text"></div>
                </div>
-               <div class="righter text-center" title="PS5">
+               <div class="righter text-center" title="PS5" id="ps5-link">
                   <div class="text"></div>
                </div>
             </div>
@@ -349,6 +349,14 @@
       lefterDiv.addEventListener('click', function () {
          // Redirige a index.html
          window.location.href = 'index.html';
+      });
+   </script>
+   <script>
+      document.getElementById('ps4-link').addEventListener('click', function () {
+         window.location.href = 'juegoscaja.html';
+      });
+      document.getElementById('ps5-link').addEventListener('click', function () {
+         window.location.href = 'ps5.html';
       });
    </script>
 </body>
