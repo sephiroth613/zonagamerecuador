@@ -1,0 +1,788 @@
+@import "https://fonts.googleapis.com/css?family=Press%20Start%202P";
+
+body {
+    background-size: cover;
+    /* Esto hace que la imagen cubra todo el contenedor */
+    background-position: center;
+    /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+
+}
+
+
+.social-btn {
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.social-btn:hover {
+    color: #ffffff;
+    /* Cambia el color del ícono en el hover */
+    border-color: #ffffff;
+    /* Cambia el color del borde en el hover */
+}
+
+.btn-outline-gray {
+    border-color: #6c757d;
+    /* Color del borde inicial */
+    color: #6c757d;
+    /* Color del ícono inicial */
+}
+
+.btn-outline-gray:hover {
+    background-color: #6c757d;
+    /* Color de fondo en el hover */
+    color: #ffffff;
+    /* Color del ícono en el hover */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+.card-text {
+    animation: fadeIn 2s ease-in-out, bounce 2s infinite;
+}
+
+.card-text i {
+    animation: bounce 2s infinite;
+}
+
+.bg-image {
+    background-image: url('/images/warzone.mp4');
+    /* Reemplaza con la ruta a tu imagen */
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    /* Ajusta la altura según sea necesario */
+    color: white;
+    /* Ajusta el color del texto según sea necesario */
+}
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    border-radius: 15px 0 0 15px;
+}
+
+.botonestitulos {
+    background-color: #80b404;
+}
+
+.carousel-item {
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    /* Mantiene la relación de aspecto de la imagen */
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #ffffff;
+}
+
+.arrowleft {
+    font-size: 40px;
+    margin-right: 185px;
+}
+
+.arrowright {
+    font-size: 40px;
+    margin-left: 185px;
+}
+
+.efectos {
+    transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s, background-color 0.3s;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    background-color: #111;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.efectos::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 255, 255, 0.2);
+    /* Color de neón azul */
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+    /* Sombra de neón azul */
+    border-radius: 8px;
+    /* Asegúrate de que se alineé con el borde redondeado del contenedor */
+    transition: opacity 0.3s;
+    opacity: 0;
+}
+
+.efectos:hover::before {
+    opacity: 1;
+}
+
+
+
+.efectos:hover {
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
+    /* Sombra de neón más intensa en azul */
+    border-color: #0ff;
+    /* Color azul neón */
+    cursor: pointer;
+}
+
+.efectos img {
+    height: 350px;
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.sombra {
+    border: none;
+    border-color: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.fondo2 {
+    background-image: url('https://iili.io/dNdhe7R.png');
+
+}
+
+.fondocarrusel {
+    background-image: url('https://iili.io/dNVW3yQ.jpg');
+    background-size: contain;
+    background-position: top;
+    background-color: #141414;
+    /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center;
+    /* Centra la imagen dentro del contenedor */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    border-radius: 0 15px 15px 0;
+
+
+}
+
+.carousel-inner {
+
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(71, 71, 71);
+    margin-top: 120px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+
+}
+
+.promociones {
+    margin-top: 0;
+    border-style: none;
+}
+
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Fondo blanco semi-transparente para los controles */
+}
+
+.opiniones {
+    margin-left: -150px;
+    color: rgb(130, 185, 187);
+    /* Color base */
+    text-shadow: 0 0 0px rgb(130, 185, 187),
+        /* Pequeño brillo */
+        0 0 10px rgb(130, 185, 187),
+        /* Brillo medio */
+        0 0 15px rgb(130, 185, 187),
+        /* Brillo más grande */
+        0 0 20px rgb(0, 255, 255),
+        /* Color neón */
+        0 0 30px rgb(0, 255, 255),
+        0 0 40px rgb(0, 255, 255);
+}
+
+
+.fondo3 {
+    background-image: url('https://iili.io/dNdhe7R.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Añade un fondo negro semi-transparente */
+}
+
+
+
+.col-md-6 {
+    max-width: 50%;
+    /* Limita el tamaño máximo de la columna */
+    overflow: hidden;
+    /* Evita que el contenido desborde */
+}
+
+:root {
+    --clr-neon: hsl(61, 100%, 54%);
+    --clr-bg: hsl(59, 96%, 82%);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.neon-button {
+    font-size: 1rem;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--clr-neon);
+    border: var(--clr-neon) 0.125em solid;
+    padding: 0.5em;
+    border-radius: 0.25em;
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+    box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
+    position: relative;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: transparent;
+    margin-top: 0px;
+    width: 150px;
+}
+
+.neon-button::before {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    background: var(--clr-neon);
+    top: 120%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+    filter: blur(1em);
+    opacity: 0.7;
+}
+
+.neon-button::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 2em 0.5em var(--clr-neon);
+    opacity: 0;
+    background-color: var(--clr-neon);
+    z-index: -1;
+    transition: opacity 100ms linear, box-shadow 100ms linear;
+}
+
+.neon-button:hover,
+.neon-button:focus {
+    color: var(--clr-bg);
+    text-shadow: none;
+    border-color: var(--clr-bg);
+    /* Cambia el color del borde en hover */
+}
+
+.neon-button:hover::before,
+.neon-button:focus::before {
+    opacity: 1;
+}
+
+.neon-button:hover::after,
+.neon-button:focus::after {
+    opacity: 1;
+    box-shadow: 0 0 3em 1em var(--clr-neon);
+}
+
+.seccion1 {
+    margin-bottom: -130px;
+}
+
+.catalogo {
+    border-radius: 15px;
+}
+
+.highlighted-text {
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 15px #0ff, 0 0 20px #0ff, 0 0 25px #0ff, 0 0 30px #0ff, 0 0 35px #0ff;
+    animation: neon-flicker 1.5s infinite;
+}
+
+.highlighted-subtext {
+    font-size: 1.5rem;
+    color: #fff;
+    text-shadow: 0 0 3px #ff0, 0 0 5px #ff0, 0 0 10px #ff0;
+    margin-top: 0.5rem;
+}
+
+@keyframes neon-flicker {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.titulo {
+    margin-top: 300px;
+}
+
+.seccion {
+    margin-bottom: -150px;
+}
+
+.seccion4 {
+    margin-top: -300px;
+}
+
+/* menu de CSS */
+.all {
+    display: flex;
+    perspective: 10px;
+    transform: perspective(300px) rotateX(20deg);
+    will-change: perspective;
+    perspective-origin: center center;
+    transition: all 1.3s ease-out;
+    justify-content: center;
+    transform-style: preserve-3d;
+}
+
+.all:hover {
+    perspective: 1000px;
+    transition: all 1.3s ease-in;
+    transform: perspective(10000px) rotateX(0deg);
+
+    .text {
+        opacity: 1;
+    }
+
+    &>div {
+        opacity: 1;
+        transition-delay: 0s;
+    }
+
+    .explainer {
+        opacity: 0;
+    }
+}
+
+.left,
+.center,
+.right,
+.lefter,
+.righter {
+    width: 80px;
+    height: 60px;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 20px 5px rgba(255, 255, 100, 0.4);
+    /* Cambiado a amarillo */
+    opacity: 0;
+    transition: all 0.3s ease;
+    transition-delay: 1s;
+    position: relative;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(201, 221, 85);
+    cursor: pointer;
+    background-blend-mode: color-burn;
+
+    &:hover {
+        box-shadow: 0 0 30px 10px rgba(255, 255, 100, 0.6);
+        /* Cambiado a amarillo */
+        background-color: #ccf;
+    }
+}
+
+.text {
+    transform: translateY(30px);
+    opacity: 0;
+    transition: all 0.2s ease;
+    bottom: 0;
+    left: 5px;
+    position: absolute;
+    will-change: transform;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(255, 255, 100, 0.6);
+    /* Cambiado a amarillo */
+}
+
+.lefter {
+    transform: translateX(-60px) translateZ(-50px) rotateY(-10deg);
+    background-image: url(https://iili.io/d1vVMhB.png);
+
+}
+
+.left {
+    transform: translateX(-30px) translateZ(-25px) rotateY(-5deg);
+    background-image: url(https://iili.io/d1vG3pp.png);
+}
+
+.center {
+    opacity: 1;
+    background-image: url(https://iili.io/d1vcq9S.png);
+}
+
+.right {
+    transform: translateX(30px) translateZ(-25px) rotateY(5deg);
+    background-image: url(https://iili.io/d1v03pS.png);
+}
+
+.righter {
+    transform: translateX(60px) translateZ(-50px) rotateY(10deg);
+    background-image: url(https://iili.io/d14pkep.png);
+}
+
+.explainer {
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #000000;
+    transition: all 0.6s ease;
+    width: 100%;
+    height: 100%;
+    background-color: #303050;
+    background-image: radial-gradient(circle at center top, #ffe066, #ffd700);
+    /* Cambiado a amarillo */
+    border-radius: 10px;
+    text-shadow: 0 0 10px rgba(255, 255, 100, 0.8);
+    /* Cambiado a amarillo */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ref {
+    background-color: #000;
+    background-image: linear-gradient(to bottom, #ff0, #f90);
+    /* Cambiado a amarillo */
+    border-radius: 3px;
+    padding: 7px 10px;
+    position: absolute;
+    font-size: 16px;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+
+    &::first-letter {
+        font-size: 12px;
+    }
+}
+
+.social-sidebar {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+    z-index: 1000;
+}
+
+.social-link {
+    color: #fff;
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-link:hover {
+    color: #1da1f2;
+    /* Color de hover, puedes cambiarlo */
+}
+
+.link-container {
+    text-decoration: none;
+    /* Elimina el subrayado del enlace */
+    color: inherit;
+    /* Hereda el color del texto */
+    display: block;
+    /* Asegura que el <a> se comporte como un bloque */
+}
+
+.product-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(255, 0, 0, 0.397);
+}
+
+.badge-discount {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #3cff00;
+    /* Color rosa neón */
+    color: #ffffff;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 0, 91, 0.8), 0 0 40px rgba(255, 0, 91, 0.5);
+    /* Resplandor fuerte */
+    text-shadow: 0 0 20px rgba(255, 0, 91, 0.9), 0 0 30px rgba(255, 0, 91, 0.6);
+    /* Resplandor en el texto */
+    transform: rotate(-15deg);
+    font-family: 'Arial', sans-serif;
+    /* Asegura que el texto tenga buen aspecto */
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+
+.efectos:hover .card-inner {
+    transform: rotateY(180deg);
+
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.card-front {
+    z-index: 2;
+    /* Ensure the front is above */
+}
+
+.card-back {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url('/images/ps3/promociones/ctr.jpg');
+    background-size: cover;
+    background-position: center;
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: relative;
+}
+
+.card-back.card-back-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url('/images/ps3/promociones/resident.jpg');
+    background-size: cover;
+    background-position: center;
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: relative;
+}
+
+.card-back.card-back-cod {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url('/images/ps3/promociones/cod.jpg');
+    background-size: cover;
+    background-position: center;
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: relative;
+}
+
+.card-back.card-back-god {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url('/images/ps3/promociones/god.jpg');
+    background-size: cover;
+    background-position: center;
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: relative;
+}
+
+
+
+
+.description-text {
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+    /* Asegura que el texto esté encima del overlay */
+}
+
+.card-back .btn-primary {
+    background-color: #03b0f4;
+    /* Color de fondo del botón */
+    border-color: #03b0f4;
+    /* Color del borde del botón */
+    color: #fff;
+    /* Color del texto del botón */
+    padding: 10px 20px;
+    /* Espaciado del botón */
+    font-size: 16px;
+    /* Tamaño de la fuente */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    text-transform: uppercase;
+    /* Texto en mayúsculas */
+    transition: background-color 0.3s, border-color 0.3s;
+    /* Transiciones para efectos hover */
+}
+
+.card-back .btn-primary:hover {
+    background-color: #0275d8;
+    /* Color de fondo del botón en hover */
+    border-color: #0275d8;
+    /* Color del borde del botón en hover */
+}
+
+.card-bg-image {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.8),
+            /* Color del overlay con opacidad */
+            rgba(0, 0, 0, 0.5)
+            /* Color del overlay con opacidad */
+        ),
+        url('https://iili.io/dNdw9tI.jpg');
+    ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.card-bg-image2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.8),
+            /* Color del overlay con opacidad */
+            rgba(0, 0, 0, 0.5)
+            /* Color del overlay con opacidad */
+        ),
+        url('https://iili.io/dNdw1oP.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.card-bg-image3 {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.8),
+            /* Color del overlay con opacidad */
+            rgba(0, 0, 0, 0.5)
+            /* Color del overlay con opacidad */
+        ),
+        url('https://iili.io/dNdwsb2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.price-tag {
+    font-size: 2rem;
+    /* Tamaño de fuente grande */
+    background-color: #6fe2ff;
+    /* Color de fondo verde neón */
+    color: #8a8a8a;
+    /* Color del texto negro para contraste */
+    border: 3px solid #0051ff;
+    /* Borde verde neón */
+    border-radius: 0.5rem;
+    /* Bordes redondeados */
+    padding: 0.5rem 1rem;
+    /* Espaciado interno */
+    font-weight: bold;
+    /* Texto en negrita */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    /* Sombra del texto para más contraste */
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.7);
+    /* Sombra alrededor del contenedor verde neón */
+    transform: translate(-10%, 10%);
+    /* Ajusta la posición según sea necesario */
+    z-index: 10;
+    /* Asegúrate de que el precio esté sobre otros elementos */
+}

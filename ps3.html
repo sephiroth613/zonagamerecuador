@@ -1,0 +1,2711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/boostrap3.css">
+    <title>Gamer Card</title>
+</head>
+
+<body class="text-white" style="background-color: rgb(56, 56, 56)">
+    <section class="bg-secondary text-black w-100 seccion3"
+        style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 40%, rgb(56, 56, 56)), url('https://iili.io/dNd81xR.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 700px; position: relative;">
+        <div class="social-sidebar">
+            <a href="https://www.facebook.com/zonagamersecuador
+            " target="_blank" title="Facebook" class="social-link">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://x.com/zonagamersec?t=P_mNPwPKWfYibsbTnGWlrw&s=09" target="_blank" title="X"
+                class="social-link">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/zonagamersecuador/
+            " target="_blank" title="Instagram" class="social-link">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.tiktok.com/@zona.gamers.ecuad" target="_blank" title="TikTok" class="social-link">
+                <i class="fab fa-tiktok"></i>
+            </a>
+            <a href="https://www.threads.net/@zonagamersecuador" target="_blank" title="Threads" class="social-link">
+                <i class="fa-brands fa-threads"></i>
+            </a>
+
+        </div>
+        <div class="d-flex justify-content-center align-items-center p-2" style="background-color: rgba(0, 0, 0, 0.5);">
+            <div class="d-flex align-items-center">
+                <div class="all d-flex">
+
+                    <div class="lefter text-center" title="Inicio">
+                        <div class="text"> </div>
+                    </div>
+                    <div class="left text-center" title="Accesorios" onclick="redirectToAccesorios()">
+                        <div class="text"></div>
+                    </div>
+                    <div class="center text-center" title="PS3">
+                        <a href="ps3.html" style="text-decoration: none;">
+                            <div class="explainer"><span>START</span></div>
+                            <div class="text"> </div>
+                        </a>
+                    </div>
+                    <div class="right text-center" title="PS4" id="ps4-link">
+                        <div class="text"></div>
+                    </div>
+                    <div class="righter text-center" title="PS5">
+                        <div class="text"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="p-3">
+            <div class="row">
+                <a href="index.html">
+                    <img src="./images/logo.png" class="imagenlogo" alt="Imagen de la comunidad de gamers"
+                        style="position: absolute; top: -90px; right: 0px; width: 400px; height: 400px;">
+                </a>
+                <div class="text-center titulo">
+                    <h2 class="highlighted-text">¡Explora Clásicos de PlayStation 3!</h2>
+                    <p class="highlighted-subtext">Revive la emoción de los juegos legendarios en tu PS3. ¡Ofertas que
+                        no puedes dejar pasar!</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="container mt-5 seccion4">
+        <div class="mb-4 ">
+            <input type="text" id="searchInput" class="form-control gamer-search " placeholder="Buscar juegos...">
+        </div>
+        <nav aria-label="Page navigation">
+            <ul class="pagination justify-content-center" id="pagination"></ul>
+        </nav>
+
+        <h1 class="text-center mb-4 text-info">Catálogo de Juegos PS3</h1>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPk2S.png" class="img-fluid w-100" alt="Juego 1">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Alien Isolation</h5>
+                        <h5>.</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Alien%20Isolation%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHP8v9.png" class="img-fluid w-100" alt="Borderlands 2">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Borderlands 2</h5>
+                        <h5>.</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Borderlands%202%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPSpe.png" class="img-fluid w-100" alt="Borderlands">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Borderlands</h5>
+                        <h5>.</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Borderlands%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPgTu.png" class="img-fluid w-100" alt="Bayoneta">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Bayoneta</h5>
+                        <h5>.</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Bayoneta%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPrhb.png" class="img-fluid w-100" alt="Bioshock">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Bioshock</h5>
+                        <h5>.</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Bioshock%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHP4Qj.png" class="img-fluid w-100" alt="Beyond Two Souls">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Beyond Two Souls</h5>
+                        <h5>.</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Beyond%20Two%20Souls%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nueva fila para la séptima tarjeta -->
+        <div class="row">
+            <!-- Card 7 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPs4V.png" class="img-fluid w-100" alt="Blazblue Central Fiction">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Blazblue Central Fiction</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Blazblue%20Central%20Fiction%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 1: Bloody Roar 2 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPQ3B.png" class="img-fluid w-100" alt="Bloody Roar 2">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Bloody Roar 2</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Bloody%20Roar%202%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 2: Bloody Roar -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPZYP.png" class="img-fluid w-100" alt="Bloody Roar">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Bloody Roar</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Bloody%20Roar%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 3: Capcom Fighting Evolution -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPtv1.png" class="img-fluid w-100" alt="Capcom Fighting Evolution">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Capcom Fighting Evolution</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Capcom%20Fighting%20Evolution%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 4: Castlevania Symphony of the Night -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPDyF.png" class="img-fluid w-100"
+                            alt="Castlevania Symphony of the Night">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Castlevania Symphony of the Night</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Castlevania%20Symphony%20of%20the%20Night%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 5: Castlevania Lament of Innocence -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPpja.png" class="img-fluid w-100"
+                            alt="Castlevania Lament of Innocence">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Castlevania Lament of Innocence</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Castlevania%20Lament%20of%20Innocence%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPyZJ.png" class="img-fluid w-100" alt="Capcom vs SNK 2">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Capcom vs SNK 2</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Capcom%20vs%20SNK%202%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHiHCv.png" class="img-fluid w-100"
+                            alt="COD Black Ops 2 Season Pass">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">COD Black Ops 2 Season Pass</h5>
+                        <p class="card-text text-white neon-text">$ 9.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20COD%20Black%20Ops%202%20Season%20Pass%20por%20$9.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHi33N.png" class="img-fluid w-100"
+                            alt="COD Advance Warfare Gold Edition">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">COD Advance Warfare Gold Edition</h5>
+                        <p class="card-text text-white neon-text">$ 7.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20COD%20Advance%20Warfare%20Gold%20Edition%20por%20$7.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHid4p.png" class="img-fluid w-100"
+                            alt="COD Black Ops 2 Revolution Map">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">COD Black Ops 2 Revolution Map</h5>
+                        <p class="card-text text-white neon-text">$ 7.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20COD%20Black%20Ops%202%20Revolution%20Map%20por%20$7.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHiFaI.png" class="img-fluid w-100"
+                            alt="COD Black Ops Ultimate Edition">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">COD Black Ops Ultimate Edition</h5>
+                        <p class="card-text text-white neon-text">$ 9.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20COD%20Black%20Ops%20Ultimate%20Edition%20por%20$9.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHiKvt.md.png" class="img-fluid w-100" alt="COD Advance Warfare">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">COD Advance Warfare</h5>
+                        <p class="card-text text-white neon-text">$ 7.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20COD%20Advance%20Warfare%20por%20$7.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHiBun.png" class="img-fluid w-100"
+                            alt="COD Ghost Digital Hardened Edition">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">COD Ghost Digital Hardened Edition</h5>
+                        <p class="card-text text-white neon-text">$ 9.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20COD%20Ghost%20Digital%20Hardened%20Edition%20por%20$9.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHiCjs.png" class="img-fluid w-100" alt="Contra Shattered Soldier">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Contra Shattered Soldier</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Contra%20Shattered%20Soldier%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHinZG.png" class="img-fluid w-100" alt="Chrono Cross">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Chrono Cross</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Chrono%20Cross%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHixnf.png" class="img-fluid w-100"
+                            alt="Castlevania Lord of Shadows 2">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Castlevania Lord of Shadows 2</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Castlevania%20Lord%20of%20Shadows%202%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHiI6l.png" class="img-fluid w-100" alt="Catherine">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Catherine</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Catherine%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHiAaS.png" class="img-fluid w-100" alt="Dante's Inferno">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Dante's Inferno</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Dante's%20Inferno%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHiR87.png" class="img-fluid w-100" alt="Disney Pixar Cars">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Disney Pixar Cars</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Disney%20Pixar%20Cars%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHiYue.png" class="img-fluid w-100" alt="Darksiders 2">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Darksiders 2</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Darksiders%202%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHiawu.png" class="img-fluid w-100" alt="Darksiders">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Darksiders</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Darksiders%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHi1Mx.png" class="img-fluid w-100"
+                            alt="Dark Souls 2 Scholar of the First Sin">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Dark Souls 2 Scholar of the First Sin</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Dark%20Souls%202%20Scholar%20of%20the%20First%20Sin%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHiE6Q.png" class="img-fluid w-100" alt="Dead Space 3">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Dead Space 3</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Dead%20Space%203%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHiMFV.png" class="img-fluid w-100" alt="Deadpool">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Deadpool</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Deadpool%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHiW8P.png" class="img-fluid w-100"
+                            alt="Destiny The Taken King Legendary Edition">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Destiny The Taken King Legendary Edition</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Destiny%20The%20Taken%20King%20Legendary%20Edition%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHih91.png" class="img-fluid w-100" alt="Dragon Ball Xenoverse">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Dragon Ball Xenoverse</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Dragon%20Ball%20Xenoverse%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHiwwg.png" class="img-fluid w-100" alt="DmC: Devil May Cry">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">DmC: Devil May Cry</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20DmC:%20Devil%20May%20Cry%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHiNta.png" class="img-fluid w-100"
+                            alt="Diablo 3 Reaper of Souls Ultimate Evil Edition">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Diablo 3 Reaper of Souls Ultimate Evil Edition</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Diablo%203%20Reaper%20of%20Souls%20Ultimate%20Evil%20Edition%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHiSFp.png" class="img-fluid w-100" alt="Dragon Ball Battle of Z">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Dragon Ball Battle of Z</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Dragon%20Ball%20Battle%20of%20Z%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHiUcN.png" class="img-fluid w-100"
+                            alt="Devil May Cry DH Collection">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Devil May Cry DH Collection</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Devil%20May%20Cry%20DH%20Collection%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHigSI.png" class="img-fluid w-100"
+                            alt="Dragon Ball Xenoverse + Season Pass">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Dragon Ball Xenoverse + Season Pass</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Dragon%20Ball%20Xenoverse%20con%20Season%20Pass%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHi6AX.png" class="img-fluid w-100" alt="EA Sports MMA">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">EA Sports MMA</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20EA%20Sports%20MMA%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHiits.png" class="img-fluid w-100" alt="Far Cry 4 Gold Edition">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Far Cry 4 Gold Edition</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Far%20Cry%204%20Gold%20Edition%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHiLoG.png" class="img-fluid w-100" alt="FIFA 17 Standard Edition">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">FIFA 17 Standard Edition</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20FIFA%2017%20Standard%20Edition%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHiZP4.png" class="img-fluid w-100" alt="FIFA Street">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">FIFA Street</h5>
+                        <p class="card-text text-white neon-text">$ 3.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20FIFA%20Street%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHiDKl.png" class="img-fluid w-100" alt="FIFA 18 Legacy Edition">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">FIFA 18 Legacy Edition</h5>
+                        <p class="card-text text-white neon-text">$ 4.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20FIFA%2018%20Legacy%20Edition%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHibl2.png" class="img-fluid w-100" alt="FIFA 19 Legacy Edition">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">FIFA 19 Legacy Edition</h5>
+                        <p class="card-text text-white neon-text">$ 9.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20FIFA%2019%20Legacy%20Edition%20por%20$9.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHiyH7.png" class="img-fluid w-100" alt="Fight Night Champion">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Fight Night Champion</h5>
+                        <p class="card-text text-white neon-text">$ 4.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Fight%20Night%20Champion%20por%20$4.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHs9R9.png" class="img-fluid w-100" alt="Final Fantasy X/X-2 HD">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Final Fantasy X/X-2 HD</h5>
+                        <p class="card-text text-white neon-text">$ 4.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Final%20Fantasy%20X/X-2%20HD%20por%20$4.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHsHNe.md.png" class="img-fluid w-100"
+                            alt="Final Fantasy XIII Lightning Returns">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Final Fantasy XIII Lightning Returns</h5>
+                        <p class="card-text text-white neon-text">$ 4.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Final%20Fantasy%20XIII%20Lightning%20Returns%20por%20$4.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHs2ob.png" class="img-fluid w-100" alt="Final Fantasy IX">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Final Fantasy IX</h5>
+                        <p class="card-text text-white neon-text">$ 4.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Final%20Fantasy%20IX%20por%20$4.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNdqyhu.jpg" class="img-fluid w-100"
+                            alt="Fatal Frame II Crimson Butterfly">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Fatal Frame II Crimson Butterfly</h5>
+                        <p class="card-text text-white neon-text">$ 4.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Fatal%20Frame%20II%20Crimson%20Butterfly%20por%20$4.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNd2ma1.jpg" class="img-fluid w-100"
+                            alt="Fatal Frame III The Tormented">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Fatal Frame III The Tormented</h5>
+                        <p class="card-text text-white neon-text">$ 4.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Fatal%20Frame%20III%20The%20Tormented%20por%20$4.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHsfKQ.png" class="img-fluid w-100" alt="Final Fantasy VII">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Final Fantasy VII</h5>
+                        <p class="card-text text-white neon-text">$ 4.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Final%20Fantasy%20VII%20por%20$4.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHsBUB.png" class="img-fluid w-100" alt="Final Fantasy VIII">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Final Fantasy VIII</h5>
+                        <p class="card-text text-white neon-text">$ 4.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Final%20Fantasy%20VIII%20por%20$4.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHsoR1.png" class="img-fluid w-100" alt="Fighting Force">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Fighting Force</h5>
+                        <p class="card-text text-white neon-text">$ 4.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Fighting%20Force%20por%20$4.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHsxOF.png" class="img-fluid w-100" alt="Final Fantasy XIII-2">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Final Fantasy XIII-2</h5>
+                        <p class="card-text text-white neon-text">$ 5.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Final%20Fantasy%20XIII-2%20por%20$5.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHszDg.png" class="img-fluid w-100" alt="God of War HD Collection">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">God of War HD Collection</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20God%20of%20War%20HD%20Collection%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHsTxa.png" class="img-fluid w-100" alt="God Of War Ascension">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">God Of War Ascension</h5>
+                        <p class="card-text text-white neon-text">$ 4.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20God%20Of%20War%20Ascension%20por%20$4.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHsuWJ.png" class="img-fluid w-100" alt="Grand Theft Auto V">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Grand Theft Auto V</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Grand%20Theft%20Auto%20V%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHsAiv.png" class="img-fluid w-100"
+                            alt="God Of War Origin Collection">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">God Of War Origin Collection</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20God%20Of%20War%20Origin%20Collection%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHs5fR.png" class="img-fluid w-100" alt="Grid 2 Reload Edition">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Grid 2 Reload Edition</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Grid%202%20Reload%20Edition%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHs7lp.png" class="img-fluid w-100" alt="GTA San Andreas">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">GTA San Andreas</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20GTA%20San%20Andreas%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHsYUN.png" class="img-fluid w-100" alt="Gungrave Overdose">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Gungrave Overdose</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Gungrave%20Overdose%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHscJI.png" class="img-fluid w-100" alt="God Hand">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">God Hand</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20God%20Hand%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHslRt.png" class="img-fluid w-100" alt="Guilty Gear XRD Revelator">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Guilty Gear XRD Revelator</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Guilty%20Gear%20XRD%20Revelator%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHs1bn.png" class="img-fluid w-100"
+                            alt="Injustice Gods Among Us Ultimate Edition">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Injustice Gods Among Us Ultimate Edition</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Injustice%20Gods%20Among%20Us%20Ultimate%20Edition%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHsMWG.png" class="img-fluid w-100" alt="J-Star Victory Vs Plus">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">J-Star Victory Vs Plus</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20J-Star%20Victory%20Vs%20Plus%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHsXf4.png" class="img-fluid w-100"
+                            alt="Just Cause 2 Ultimate Edition">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Just Cause 2 Ultimate Edition</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Just%20Cause%202%20Ultimate%20Edition%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHsVsf.png" class="img-fluid w-100" alt="Kane And Lynch">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Kane And Lynch</h5>
+                        <p class="card-text text-white neon-text">$ 4.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Kane%20And%20Lynch%20por%20$4.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHsh0l.png" class="img-fluid w-100" alt="Kane And Lynch 2">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Kane And Lynch 2</h5>
+                        <p class="card-text text-white neon-text">$ 4.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Kane%20And%20Lynch%202%20por%20$4.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHsjg2.png" class="img-fluid w-100"
+                            alt="Lego Batman 3 Beyond Gotham">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Lego Batman 3 Beyond Gotham</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Lego%20Batman%203%20Beyond%20Gotham%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHsNJS.md.png" class="img-fluid w-100" alt="L.A. Noire">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">L.A. Noire</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20L.A.%20Noire%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHsO57.png" class="img-fluid w-100" alt="Le Tour De France 2015">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Le Tour De France 2015</h5>
+                        <p class="card-text text-white neon-text">$ 4.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Le%20Tour%20De%20France%202015%20por%20$4.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHskbe.md.png" class="img-fluid w-100"
+                            alt="Lego Marvel Super Heroes">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Lego Marvel Super Heroes</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Lego%20Marvel%20Super%20Heroes%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHs8zu.png" class="img-fluid w-100" alt="Lego Marvel Avengers">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Lego Marvel Avengers</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Lego%20Marvel%20Avengers%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHsUsj.md.png" class="img-fluid w-100" alt="Lego Jurassic World">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Lego Jurassic World</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Lego%20Jurassic%20World%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHsrqx.md.png" class="img-fluid w-100"
+                            alt="Lego Pirates of the Caribbean">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Lego Pirates of the Caribbean</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Lego%20Pirates%20of%20the%20Caribbean%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHsidB.png" class="img-fluid w-100"
+                            alt="Lego Star Wars The Force Awakens">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Lego Star Wars The Force Awakens</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Lego%20Star%20Wars%20The%20Force%20Awakens%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHsLe1.md.png" class="img-fluid w-100" alt="LittleBigPlanet 3">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">LittleBigPlanet 3</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20LittleBigPlanet%203%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHsQmF.md.png" class="img-fluid w-100" alt="Lost Planet 3">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Lost Planet 3</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Lost%20Planet%203%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHstzg.md.png" class="img-fluid w-100"
+                            alt="Medal of Honor Warfighter">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Medal of Honor Warfighter</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Medal%20of%20Honor%20Warfighter%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHsDXa.md.png" class="img-fluid w-100"
+                            alt="Max Payne 3 Complete Edition">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Max Payne 3 Complete Edition</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Max%20Payne%203%20Complete%20Edition%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHspqv.md.png" class="img-fluid w-100" alt="Minecraft PS3 Edition">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Minecraft PS3 Edition</h5>
+                        <p class="card-text text-white neon-text">$ 7.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Minecraft%20PS3%20Edition%20por%20$7.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHsy1R.png" class="img-fluid w-100"
+                            alt="Middle-earth: Shadow of Mordor">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Middle-earth: Shadow of Mordor</h5>
+                        <p class="card-text text-white neon-text">$ 4.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Middle-earth:%20Shadow%20of%20Mordor%20por%20$4.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLJdN.md.png" class="img-fluid w-100"
+                            alt="Metal Gear Solid V: The Phantom Pain">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Metal Gear Solid V: The Phantom Pain</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Metal%20Gear%20Solid%20V:%20The%20Phantom%20Pain%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLd7I.png" class="img-fluid w-100" alt="Metal Slug 3">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Metal Slug 3</h5>
+                        <p class="card-text text-white neon-text">$ 7.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Metal%20Slug%203%20por%20$7.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHL3mX.png" class="img-fluid w-100" alt="Metal Slug X">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Metal Slug X</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Metal%20Slug%20X%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLKIn.md.png" class="img-fluid w-100"
+                            alt="Midnight Club Street Racing">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Midnight Club Street Racing</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Midnight%20Club%20Street%20Racing%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLn14.png" class="img-fluid w-100" alt="MotoGP 15">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">MotoGP 15</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20MotoGP%2015%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLorl.md.png" class="img-fluid w-100" alt="MLB The Show 16">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">MLB The Show 16</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20MLB%20The%20Show%2016%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLI7S.png" class="img-fluid w-100"
+                            alt="Mortal Kombat Komplete Edition">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Mortal Kombat Komplete Edition</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Mortal%20Kombat%20Komplete%20Edition%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLTk7.png" class="img-fluid w-100" alt="MX vs ATV Supercross">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">MX vs ATV Supercross</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20MX%20vs%20ATV%20Supercross%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLup9.md.png" class="img-fluid w-100" alt="MX vs ATV Alive">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">MX vs ATV Alive</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20MX%20vs%20ATV%20Alive%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLRIe.md.png" class="img-fluid w-100" alt="Murdered Soul Suspect">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Murdered Soul Suspect</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Murdered%20Soul%20Suspect%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHL5hu.md.png" class="img-fluid w-100"
+                            alt="Need for Speed Hot Pursuit">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Need for Speed Hot Pursuit</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Need%20for%20Speed%20Hot%20Pursuit%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLaBj.md.png" class="img-fluid w-100"
+                            alt="Naruto Shippuden UNS Revolutions">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Naruto Shippuden UNS Revolutions</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Naruto%20Shippuden%20UNS%20Revolutions%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLcEx.md.png" class="img-fluid w-100" alt="NBA 2K17">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">NBA 2K17</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20NBA%202K17%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHL12V.md.png" class="img-fluid w-100" alt="Need for Speed Rivals">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Need for Speed Rivals</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Need%20for%20Speed%20Rivals%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLEYB.md.png" class="img-fluid w-100"
+                            alt="Need for Speed Most Wanted">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Need for Speed Most Wanted</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Need%20for%20Speed%20Most%20Wanted%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLMp1.md.png" class="img-fluid w-100"
+                            alt="Need for Speed Rivals Complete Edition">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Need for Speed Rivals Complete Edition</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Need%20for%20Speed%20Rivals%20Complete%20Edition%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLWTF.md.png" class="img-fluid w-100" alt="Need for Speed The Run">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Need for Speed The Run</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Need%20for%20Speed%20The%20Run%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLXhg.png" class="img-fluid w-100" alt="Ninja Gaiden Sigma 2">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Ninja Gaiden Sigma 2</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Ninja%20Gaiden%20Sigma%202%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLhQa.png" class="img-fluid w-100" alt="Ninja Gaiden Sigma">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Ninja Gaiden Sigma</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Ninja%20Gaiden%20Sigma%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLwCJ.md.png" class="img-fluid w-100"
+                            alt="Ni-no Kuni La Ira de la Bruja Blanca">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Ni-no Kuni La Ira de la Bruja Blanca</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Ni-no%20Kuni%20La%20Ira%20de%20la%20Bruja%20Blanca%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLNEv.md.png" class="img-fluid w-100"
+                            alt="One Piece Pirate Warriors">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">One Piece Pirate Warriors</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20One%20Piece%20Pirate%20Warriors%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLk2p.md.png" class="img-fluid w-100"
+                            alt="One Piece Pirate Warriors 3">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">One Piece Pirate Warriors 3</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20One%20Piece%20Pirate%20Warriors%203%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLvYN.md.png" class="img-fluid w-100"
+                            alt="One Piece Unlimited World Red">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">One Piece Unlimited World Red</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20One%20Piece%20Unlimited%20World%20Red%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHL8vI.md.png" class="img-fluid w-100" alt="Persona 4 Arena Ultimax">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Persona 4 Arena Ultimax</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Persona%204%20Arena%20Ultimax%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLSpt.md.png" class="img-fluid w-100" alt="Persona 5">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Persona 5</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Persona%205%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLgTX.png" class="img-fluid w-100" alt="PES 17">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">PES 17</h5>
+                        <p class="card-text text-white neon-text">$ 4.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20PES%2017%20por%20$4.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLrjn.png" class="img-fluid w-100" alt="PES 18">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">PES 18</h5>
+                        <p class="card-text text-white neon-text">$ 9.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20PES%2018%20por%20$9.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHL4Qs.md.png" class="img-fluid w-100"
+                            alt="Prince of Persia: The Forgotten Sands">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Prince of Persia: The Forgotten Sands</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Prince%20of%20Persia:%20The%20Forgotten%20Sands%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLPCG.png" class="img-fluid w-100"
+                            alt="Prince of Persia: Ultimate Edition">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Prince of Persia: Ultimate Edition</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Prince%20of%20Persia:%20Ultimate%20Edition%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLiGf.png" class="img-fluid w-100" alt="Prince of Persia">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Prince of Persia</h5>
+                        <p class="card-text text-white neon-text">$ 9.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Prince%20of%20Persia%20por%20$9.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLs44.md.png" class="img-fluid w-100" alt="Rayman Legends">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Rayman Legends</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Rayman%20Legends%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLQ3l.md.png" class="img-fluid w-100" alt="Rayman Origins">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Rayman Origins</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Rayman%20Origins%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLZa2.md.png" class="img-fluid w-100" alt="Red Dead Redemption">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Red Dead Redemption</h5>
+                        <p class="card-text text-white neon-text">$ 9.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Red%20Dead%20Redemption%20por%20$9.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLDy7.md.png" class="img-fluid w-100"
+                            alt="Red Dead Redemption: Undead Nightmare">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Red Dead Redemption: Undead Nightmare</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Red%20Dead%20Redemption:%20Undead%20Nightmare%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLmu9.md.png" class="img-fluid w-100" alt="Remember Me">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Remember Me</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Remember%20Me%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLpje.md.png" class="img-fluid w-100" alt="Resident Evil 4 HD">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Resident Evil 4 HD</h5>
+                        <p class="card-text text-white neon-text">$ 9.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Resident%20Evil%204%20HD%20por%20$9.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHLyZu.md.png" class="img-fluid w-100"
+                            alt="Resident Evil 5 Gold Edition">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Resident Evil 5 Gold Edition</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Resident%20Evil%205%20Gold%20Edition%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHQHCb.md.png" class="img-fluid w-100"
+                            alt="Resident Evil Revelations 2 Deluxe Edition">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Resident Evil Revelations 2 Deluxe Edition</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Resident%20Evil%20Revelations%202%20Deluxe%20Edition%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHQ33Q.png" class="img-fluid w-100" alt="Resident Evil 6">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Resident Evil 6</h5>
+                        <p class="card-text text-white neon-text">$ 9.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Resident%20Evil%206%20por%20$9.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHQFaV.md.png" class="img-fluid w-100"
+                            alt="Resident Evil HD Remastered">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Resident Evil HD Remastered</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Resident%20Evil%20HD%20Remastered%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHQK8B.png" class="img-fluid w-100" alt="Saint Seiya Soldiers' Soul">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Saint Seiya Soldiers' Soul</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Saint%20Seiya%20Soldiers'%20Soul%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHQfyP.md.png" class="img-fluid w-100" alt="Sacred 3">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Sacred 3</h5>
+                        <p class="card-text text-white neon-text">$ 9.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Sacred%203%20por%20$9.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHQBu1.md.png" class="img-fluid w-100"
+                            alt="Sleeping Dogs Digital Edition">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Sleeping Dogs Digital Edition</h5>
+                        <p class="card-text text-white neon-text">$ 4.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Sleeping%20Dogs%20Digital%20Edition%20por%20$4.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHQCwF.png" class="img-fluid w-100" alt="Sonic Heroes">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Sonic Heroes</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Sonic%20Heroes%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHQnZg.md.png" class="img-fluid w-100" alt="Street Fighter Alpha 2">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Street Fighter Alpha 2</h5>
+                        <p class="card-text text-white neon-text">$ 4.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Street%20Fighter%20Alpha%202%20por%20$4.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHQzMJ.md.png" class="img-fluid w-100" alt="Street Fighter Alpha 3">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Street Fighter Alpha 3</h5>
+                        <p class="card-text text-white neon-text">$ 4.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Street%20Fighter%20Alpha%203%20por%20$4.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHQI6v.md.png" class="img-fluid w-100" alt="Sniper Ghost Warriors 2">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Sniper Ghost Warriors 2</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Sniper%20Ghost%20Warriors%202%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHQuFR.png" class="img-fluid w-100" alt="Sonic Adventure">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Sonic Adventure</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Sonic%20Adventure%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHQAap.md.png" class="img-fluid w-100" alt="Sonic Adventure 2">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Sonic Adventure 2</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Sonic%20Adventure%202%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHQ79I.md.png" class="img-fluid w-100"
+                            alt="Sonic The Hedgehog 4 Episode 1">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Sonic The Hedgehog 4 Episode 1</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Sonic%20The%20Hedgehog%204%20Episode%201%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNH6kba.png" class="img-fluid w-100" alt="Sonic The Hedgehog 2">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Sonic The Hedgehog 2</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Sonic%20The%20Hedgehog%202%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNH6UsR.png" class="img-fluid w-100" alt="Sonic Generations">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Sonic Generations</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Sonic%20Generations%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNH68zJ.png" class="img-fluid w-100"
+                            alt="Sonic The Hedgehog 4 Episode 2">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Sonic The Hedgehog 4 Episode 2</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Sonic%20The%20Hedgehog%204%20Episode%202%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNH6SWv.png" class="img-fluid w-100" alt="Sonic The Hedgehog">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Sonic The Hedgehog</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Sonic%20The%20Hedgehog%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNH640N.png" class="img-fluid w-100" alt="Sonic Unleashed">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Sonic Unleashed</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Sonic%20Unleashed%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNH66gI.png" class="img-fluid w-100"
+                            alt="Spider-Man Shattered Dimensions">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Spider-Man Shattered Dimensions</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Spider-Man%20Shattered%20Dimensions%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNH6iJt.md.png" class="img-fluid w-100" alt="Spec Ops The Line">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Spec Ops The Line</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Spec%20Ops%20The%20Line%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNH6Len.md.png" class="img-fluid w-100" alt="SSX">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">SSX</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20SSX%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNH6tzG.md.png" class="img-fluid w-100"
+                            alt="Super Street Fighter 2 Turbo HD Remix">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Super Street Fighter 2 Turbo HD Remix</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Super%20Street%20Fighter%202%20Turbo%20HD%20Remix%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNH6DXf.png" class="img-fluid w-100"
+                            alt="Star Wars The Force Unleashed 2">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Star Wars The Force Unleashed 2</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Star%20Wars%20The%20Force%20Unleashed%202%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNH6bs4.png/images/ps3/142.png" class="img-fluid w-100" alt="Strider">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Strider</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Strider%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHP9gS.md.png" class="img-fluid w-100"
+                            alt="The Evil Within Digital Bundle">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">The Evil Within Digital Bundle</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20The%20Evil%20Within%20Digital%20Bundle%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPJd7.md.png" class="img-fluid w-100" alt="Tekken X Street Fighter">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Tekken X Street Fighter</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Tekken%20X%20Street%20Fighter%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPd79.png" class="img-fluid w-100" alt="The Evil Within">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">The Evil Within</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20The%20Evil%20Within%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNdC6l4.jpg" class="img-fluid w-100" alt="The King of Fighters XIII">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">The King of Fighters XIII</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20The%20King%20of%20Fighters%20XIII%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPfXj.md.png" class="img-fluid w-100" alt="The Last of Us">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">The Last of Us</h5>
+                        <p class="card-text text-white neon-text">$ 9.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20The%20Last%20of%20Us%20por%20$9.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPqLx.png" class="img-fluid w-100" alt="The Legend of Korra">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">The Legend of Korra</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20The%20Legend%20of%20Korra%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPzdP.png" class="img-fluid w-100" alt="The King of Fighters '99">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">The King of Fighters '99</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20The%20King%20of%20Fighters%20'99%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPI71.png" class="img-fluid w-100" alt="The Warriors">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">The Warriors</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20The%20Warriors%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPRIa.png" class="img-fluid w-100" alt="Twisted Metal Black">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Twisted Metal Black</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Twisted%20Metal%20Black%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHP5hJ.md.png" class="img-fluid w-100"
+                            alt="Tom Clancy's Splinter Cell Blacklist">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Tom Clancy's Splinter Cell Blacklist</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Tom%20Clancy's%20Splinter%20Cell%20Blacklist%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPc1p.md.png" class="img-fluid w-100"
+                            alt="Tom Clancy's Splinter Cell Blacklist Ultimate Edition">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Tom Clancy's Splinter Cell Blacklist Ultimate
+                            Edition</h5>
+                        <p class="card-text text-white neon-text">$ 7.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Tom%20Clancy's%20Splinter%20Cell%20Blacklist%20Ultimate%20Edition%20por%20$7.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPaBR.md.png" class="img-fluid w-100" alt="Thief">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Thief</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Thief%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPlrN.png" class="img-fluid w-100"
+                            alt="Tomb Raider Digital Edition">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Tomb Raider Digital Edition</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Tomb%20Raider%20Digital%20Edition%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHP12I.png" class="img-fluid w-100" alt="Toy Story 3 The Video Game">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Toy Story 3 The Video Game</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Toy%20Story%203%20The%20Video%20Game%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPE7t.md.png" class="img-fluid w-100" alt="Twisted Metal">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Twisted Metal</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Twisted%20Metal%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPGkX.md.png" class="img-fluid w-100"
+                            alt="Uncharted 3 Drake's Deception GOTY Edition">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Uncharted 3 Drake's Deception GOTY Edition</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Uncharted%203%20Drake's%20Deception%20GOTY%20Edition%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPMpn.md.png" class="img-fluid w-100"
+                            alt="Uncharted 2 Among Thieves">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Uncharted 2 Among Thieves</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Uncharted%202%20Among%20Thieves%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPWIs.md.png" class="img-fluid w-100" alt="Ultra Street Fighter IV">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Ultra Street Fighter IV</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Ultra%20Street%20Fighter%20IV%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPhQf.md.png" class="img-fluid w-100"
+                            alt="Uncharted Drake's Fortune">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Uncharted Drake's Fortune</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Uncharted%20Drake's%20Fortune%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPwB4.png" class="img-fluid w-100" alt="Watch Dogs">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">Watch Dogs</h5>
+                        <p class="card-text text-white neon-text">$ 6.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20Watch%20Dogs%20por%20$6.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Card WWE 2K17 -->
+            <div class="col-md-2 mb-4">
+                <div class="card bg-dark gamer-card">
+                    <div class="card-body p-0">
+                        <img src="https://iili.io/dNHPNEl.md.png" class="img-fluid w-100" alt="WWE 2K17">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-white neon-text">WWE 2K17</h5>
+                        <p class="card-text text-white neon-text">$ 9.99 USD</p>
+                        <a href="https://wa.me/593958794091?text=Hola,%20estoy%20interesado%20en%20comprar%20WWE%202K17%20por%20$9.99%20USD"
+                            class="btn btn-primary neon-button" target="_blank">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const searchInput = document.getElementById('searchInput');
+            const cards = document.querySelectorAll('.card');
+
+            searchInput.addEventListener('input', function () {
+                const query = searchInput.value.toLowerCase();
+
+                cards.forEach(card => {
+                    const title = card.querySelector('.card-title').textContent.toLowerCase();
+                    const text = card.querySelector('.card-text').textContent.toLowerCase();
+
+                    if (title.includes(query) || text.includes(query)) {
+                        card.parentElement.style.display = 'block';
+                    } else {
+                        card.parentElement.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const itemsPerPage = 18; // Cambia esto según cuántos elementos quieras mostrar por página
+            const cards = document.querySelectorAll('.row .col-md-2');
+            const totalPages = Math.ceil(cards.length / itemsPerPage);
+
+            function showPage(pageNumber) {
+                cards.forEach((card, index) => {
+                    card.style.display = (Math.floor(index / itemsPerPage) === pageNumber) ? 'block' : 'none';
+                });
+            }
+
+            function createPagination() {
+                const paginationElement = document.getElementById('pagination');
+                paginationElement.innerHTML = '';
+
+                for (let i = 0; i < totalPages; i++) {
+                    const li = document.createElement('li');
+                    li.className = 'page-item';
+                    const a = document.createElement('a');
+                    a.className = 'page-link';
+                    a.href = '#';
+                    a.textContent = i + 1;
+                    a.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        showPage(i);
+                    });
+                    li.appendChild(a);
+                    paginationElement.appendChild(li);
+                }
+            }
+
+            createPagination();
+            showPage(0); // Muestra la primera página por defecto
+        });
+    </script>
+    <script>
+        // Selecciona el elemento .lefter
+        const lefterDiv = document.querySelector('.lefter');
+
+        // Agrega un evento de clic al div
+        lefterDiv.addEventListener('click', function () {
+            // Redirige a index.html
+            window.location.href = 'index.html';
+        });
+    </script>
+    <script>
+        function redirectToAccesorios() {
+            window.location.href = 'accesorios.html';
+        }
+    </script>
+    <script>
+        document.getElementById('ps4-link').addEventListener('click', function () {
+            window.location.href = 'juegoscaja.html';
+        });
+    </script>
+
+</body>
+
+</html>
