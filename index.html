@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/boostrap.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
     <meta property="og:title" content="Zona Gamer Ecuador">
     <meta property="og:description" content="Tu destino para los mejores juegos y ofertas.">
     <meta property="og:image" content="https://iili.io/dP3wFp4.png">
@@ -17,8 +16,9 @@
     <meta property="og:type" content="website">
 
     <title>Zona Gamer Ecuador</title>
-</head>
 
+    </style>
+</head>
 
 <body class="text-white" style="background-color: rgb(57, 57, 57)">
     <section class="bg-secondary text-black w-100 seccion1"
@@ -44,12 +44,13 @@
             </a>
         </div>
 
-        <div class="d-flex justify-content-center align-items-center p-2"
+        <!-- Menú original, visible solo en pantallas grandes -->
+        <div class="d-none d-lg-flex justify-content-center align-items-center p-2"
             style="background-color: rgba(24, 26, 12, 0.5);">
             <div class="d-flex align-items-center">
                 <div class="all d-flex">
                     <div class="lefter text-center" title="Inicio">
-                        <div class="text"> </div>
+                        <div class="text"></div>
                     </div>
                     <div class="left text-center" title="Accesorios" id="accesorios-link">
                         <div class="text"></div>
@@ -69,6 +70,52 @@
                 </div>
             </div>
         </div>
+
+        <!-- Menú para dispositivos móviles, visible solo en pantallas pequeñas -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-lg-none position-fixed w-100" style="z-index: 1050;">
+            <div class="container-fluid">
+                <!-- Estilo gamer para el título -->
+                <a class="navbar-brand" href="#" style="background-color: transparent;">
+                    <i class="fas fa-gamepad"></i> Menú
+                </a>
+                <!-- Botón hamburguesa para móviles -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Enlaces del menú -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto text-center">
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" href="#">
+                                <i class="fas fa-home"></i> Inicio
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-info" href="Accesorios.html">
+                                <i class="fas fa-headphones-alt"></i> Accesorios
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" href="ps3.html">
+                                <i class="fab fa-playstation"></i> PS3
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-success" href="juegoscaja.html">
+                                <i class="fab fa-playstation"></i> PS4
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-primary" href="ps5.html">
+                                <i class="fab fa-playstation"></i> PS5
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
         <div class="p-3">
             <div class="row">
                 <div class="col-md-6 text-center">
@@ -1245,6 +1292,9 @@
                 const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
                 window.open(url, '_blank');
             }
+        </script>
+        <script>
+
         </script>
 
 </body>
