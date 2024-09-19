@@ -580,3 +580,19 @@ body {
     background-image: url(https://iili.io/d1vVMhB.png);
 
 }
+
+@media (max-width: 767.98px) {
+
+    .imagenlogo {
+        width: 200px !important;
+        height: 200px !important;
+        top: 20px !important;
+        margin-right: 80px;
+
+    }
+
+    .titulo h2,
+    p {
+        font-size: 16px !important;
+    }
+}
