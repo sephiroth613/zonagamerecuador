@@ -35,19 +35,19 @@
             </a>
 
         </div>
-        <div class="d-flex justify-content-center align-items-center p-2" style="background-color: rgba(0, 0, 0, 0.5);">
+        <div class="d-none d-lg-flex justify-content-center align-items-center p-2"
+            style="background-color: rgba(24, 26, 12, 0.5);">
             <div class="d-flex align-items-center">
                 <div class="all d-flex">
-
                     <div class="lefter text-center" title="Inicio">
-                        <div class="text"> </div>
+                        <div class="text"></div>
                     </div>
-                    <div class="left text-center" title="Accesorios" onclick="redirectToAccesorios()">
+                    <div class="left text-center" title="Accesorios" id="accesorios-link">
                         <div class="text"></div>
                     </div>
                     <div class="center text-center" title="PS3">
                         <a href="ps3.html" style="text-decoration: none;">
-                            <div class="explainer"><span>START</span></div>
+                            <div class="explainer"><span>MENU</span></div>
                             <div class="text"> </div>
                         </a>
                     </div>
@@ -60,13 +60,60 @@
                 </div>
             </div>
         </div>
-        </div>
+
+        <!-- Menú para dispositivos móviles, visible solo en pantallas pequeñas -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-lg-none position-fixed w-100" style="z-index: 1050;">
+            <div class="container-fluid">
+                <!-- Estilo gamer para el título -->
+                <a class="navbar-brand" href="#" style="background-color: transparent;">
+                    <i class="fas fa-gamepad"></i> Menú
+                </a>
+                <!-- Botón hamburguesa para móviles -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Enlaces del menú -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto text-center">
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" href="index.html">
+                                <i class="fas fa-home"></i> Inicio
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-info" href="Accesorios.html">
+                                <i class="fas fa-headphones-alt"></i> Accesorios
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-danger" href="ps3.html">
+                                <i class="fab fa-playstation"></i> PS3
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-success" href="juegoscaja.html">
+                                <i class="fab fa-playstation"></i> PS4
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-primary" href="ps5.html">
+                                <i class="fab fa-playstation"></i> PS5
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
         <div class="p-3">
             <div class="row">
-                <a href="index.html">
-                    <img src="./images/logo.png" class="imagenlogo" alt="Imagen de la comunidad de gamers"
-                        style="position: absolute; top: -90px; right: 0px; width: 400px; height: 400px;">
-                </a>
+                <div class="col-md-6 text-center">
+                    <a href="index.html">
+                        <img src="./images/logo.png" class="imagenlogo img-fluid" alt="Imagen de la comunidad de gamers"
+                            style="position: absolute; top: -90px; right: 0px; width: 400px; height: 400px;">
+                    </a>
+                </div>
                 <div class="text-center titulo">
                     <h2 class="highlighted-text">¡Explora Clásicos de PlayStation 3!</h2>
                     <p class="highlighted-subtext">Revive la emoción de los juegos legendarios en tu PS3. ¡Ofertas que
