@@ -624,3 +624,33 @@ body {
     color: #1da1f2;
     /* Color de hover, puedes cambiarlo */
 }
+
+@media (max-width: 767.98px) {
+
+    .imagenlogo {
+        width: 200px !important;
+        height: 200px !important;
+        top: 20px !important;
+        margin-right: 80px;
+
+    }
+
+    .titulo h2,
+    p {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .pagination {
+        font-size: 12px;
+        /* Ajusta el tamaño de fuente */
+        padding: 5px 10px;
+        /* Ajusta el padding */
+    }
+
+    .pagination li {
+        margin: 2px;
+        /* Ajusta el espaciado */
+    }
+}
